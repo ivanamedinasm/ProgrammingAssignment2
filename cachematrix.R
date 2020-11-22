@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+#get the inverse and save it 
 
 makeCacheMatrix <- function(x =matrix()) {
   #NULL bc I dont have the value yet
@@ -20,6 +21,7 @@ makeCacheMatrix <- function(x =matrix()) {
 
 
 ## Write a short comment describing this function: 
+#show the inverse that is saved or calculate it
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
